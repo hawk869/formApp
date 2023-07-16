@@ -53,4 +53,7 @@ export class DynamicPageComponent {
     console.log( this.myForm.value);
     this.myForm.reset();
   }
+  onDeleteFavorite( index: number): void {
+    this.favoriteGames.removeAt( index );
+  }
 }
