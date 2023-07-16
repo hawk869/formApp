@@ -48,7 +48,7 @@ export class BasicPageComponent implements OnInit {
           return `Mínimo ${ errors['minlength'].requiredLength } caracteres`;
       }
     }
-    return 'Hola mundo';
+    return null;
   }
   onSave(): void {
     if ( this.myForm.invalid ) {
